@@ -1,12 +1,13 @@
-
 /* style.css */
 body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
   color: #ffffff;
-  background: url('images/stars-bg.jpg') no-repeat center center fixed;
+  background: linear-gradient(to bottom, #0b0c10, #1a1c22);
+  background-image: url('images/starfield.png');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 header, footer {
@@ -62,6 +63,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  justify-content: center;
 }
 
 .gallery img {
